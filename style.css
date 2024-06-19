@@ -1,0 +1,58 @@
+h1{font-size: 70px
+    ; color : black;
+text-align: center;
+border-bottom: 5px solid black;
+margin: 0px;
+padding: 20px;}
+
+a{ text-decoration: none; color: black;}
+
+
+p { color : black ; font-size: larger;;
+font-display: solid ;}
+
+ol{
+  
+    border-right : 5px solid black;
+    width : 100px; 
+    margin: 0;
+    font-size: large;
+
+
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+width: 100px;
+    }
+
+#grid ol{
+    border-right: 4px solid black;
+}
+
+
+
+.saw{
+    color: blue;
+}
+
+.more{
+    color : blue;
+}
+
+#active{
+    color : blue;
+    text-decoration : underline;
+}
+
+#much{
+    text-shadow: 2cm; text-decoration: dashed;}
+
+
+    body { background-image: url("사이트\ 배경.jpg") ; opacity: 1; margin : 0px;
+ 
+        background-repeat : no-repeat;
+       background-attachment: fixed;
+       background-size : 2000px ;
+       }
